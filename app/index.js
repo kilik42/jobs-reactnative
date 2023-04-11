@@ -1,5 +1,9 @@
-import { View, Text } from 'react-native';
+import { View, Text, ScrollView, SafeAreaView } from 'react-native';
+import {useState} from 'react';
+import {Stack, useRouter} from 'expo-router';
 
+import {Colors, icons, images, SIZES} from '../constants';
+import {Nearbyjobs, Popularjobs, ScreenHeaderBtn, Welcome} from '../components';
 const Home = () => {
     return (
         <View>
